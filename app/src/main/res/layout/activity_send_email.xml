@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uz.iutlab.assignment3.SendEmailActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+    />
+
+    <EditText
+        android:id="@+id/fromNameXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.EditText"
+        android:hint="From name"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        style="Text"
+    />
+
+    <EditText
+        android:id="@+id/emailEditTextXML"
+        android:focusedByDefault="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.EditText"
+        android:hint="To Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+    />
+
+    <EditText
+        android:id="@+id/subjectEditTextXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.V12.Widget.AppCompat.EditText"
+        android:hint="Email subject"
+        android:inputType="textEmailSubject"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <EditText
+        android:id="@+id/bodyEditTextXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:hint="Body"
+        />
+    <Button
+        android:id="@+id/sendButtonXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="center"
+        />
+
+
+
+
+</LinearLayout>

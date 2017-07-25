@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="available_products">Available Products</string>
+    <string name="buy">Buy</string>
+    <string name="logged_as">Logged as %s</string>
+    <string name="body_text">I want to buy %s </string>
+
+
+    <string-array name="available_products">
+        <item>Grape</item>
+        <item>Orange</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Watermelon</item>
+        <item>melon</item>
+        <item>kiwi</item>
+        <item>Peach</item>
+    </string-array>
+</resources>
